@@ -1,13 +1,28 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const LandingText = (props) => {
   return (
-    <div className="landing-text">
-      <h2>MUHAMAD AMIR AZMI</h2>
-      <hr className="text-color" />
-      <h5>"ASPIRING WEB DEVELOPER"</h5>
-      <h6>| SELF TAUGHT | MERN STACK |</h6>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <div className="landing-text">
+            <h2>MUHAMAD AMIR AZMI</h2>
+
+            <h5>"ASPIRING WEB DEVELOPER"</h5>
+            <h6>| SELF TAUGHT | MERN STACK |</h6>
+            <p>
+              <a href="https://github.com/m-amirazmi/">
+                <i class="fab fa-github-square fa-2x"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/m-amirazmi/">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </p>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

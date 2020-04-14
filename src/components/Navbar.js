@@ -8,12 +8,12 @@ const NavbarLanding = (props) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Nav className="mr-auto">
-            <Nav.Link href="https://www.linkedin.com/in/m-amirazmi/">
+            {/* <Nav.Link href="https://www.linkedin.com/in/m-amirazmi/">
               <i class="fab fa-linkedin fa-lg"></i>
             </Nav.Link>
             <Nav.Link href="https://github.com/m-amirazmi/">
-              <i class="fab fa-github-square fa-lg"></i>
-            </Nav.Link>
+              <i class="fab fa-github-square fa-lg"></i> */}
+            {/* </Nav.Link> */}
           </Nav>
           <Nav>
             <Nav.Link href="#my-story">My Story</Nav.Link>

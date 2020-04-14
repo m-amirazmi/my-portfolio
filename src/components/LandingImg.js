@@ -3,13 +3,15 @@ import LandingText from "./LandingText";
 
 const LandingImg = (props) => {
   return (
-    <div className="landing-img-box">
-      <img
-        className="landing-img"
-        src="https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
-      />
+    <React.Fragment>
+      <div className="landing-img-box">
+        <img
+          className="landing-img"
+          src="https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
+        />
+      </div>
       <LandingText />
-    </div>
+    </React.Fragment>
   );
 };
 
