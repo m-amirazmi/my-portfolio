@@ -16,9 +16,9 @@ const NavbarLanding = (props) => {
             {/* </Nav.Link> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#my-story">My Story</Nav.Link>
-            <Nav.Link href="#my-project">My Project</Nav.Link>
-            <Nav.Link href="#my-skills">My Skills</Nav.Link>
+            <Nav.Link href="#story">My Story</Nav.Link>
+            <Nav.Link href="#projects">My Project</Nav.Link>
+            <Nav.Link href="#skills">My Skills</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

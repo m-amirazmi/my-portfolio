@@ -4,10 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../img/prof2.jpg";
 import MyProjectPage from "./MyProjectPage";
 import MySkills from "./MySkills";
+import ReachMe from "./ReachMe";
 
 const MyStoryPage = (props) => {
   return (
-    <div className="mystorypage">
+    <div className="mystorypage" id="story">
       <NavbarLanding />
       <Container>
         <h2>My Story</h2>
@@ -47,6 +48,7 @@ const MyStoryPage = (props) => {
       </Container>
       <MyProjectPage />
       <MySkills />
+      <ReachMe />
     </div>
   );
 };

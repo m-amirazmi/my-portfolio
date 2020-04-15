@@ -7,7 +7,7 @@ import pro4 from "../img/project4.jpg";
 
 const MyProjectPage = (props) => {
   return (
-    <div className="myprojectpage">
+    <div className="myprojectpage" id="projects">
       <Container>
         <h2 className="myproject-title">My Projects</h2>
         <hr />

@@ -122,4 +122,39 @@ body {
 }
 .myskills {
   background: $light-color-1;
+  h4 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .card-skills {
+    height: 100px;
+  }
+  .card-skills-title {
+    text-align: center;
+    padding: 0;
+  }
+  .card-skills-box {
+    margin-bottom: 20px;
+  }
+}
+.reach-me {
+  background: $dark-color-2;
+  h5 {
+    text-align: center;
+  }
+}
+.reach-me {
+  align-items: center;
+  p {
+    margin-left: 140px;
+  }
+  p a {
+    font-style: none;
+    text-decoration: none;
+    color: $light-color-1;
+    margin: 10px 10px;
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
