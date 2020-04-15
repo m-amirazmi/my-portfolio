@@ -76,17 +76,29 @@ body {
 }
 .mystorypage {
   background: $light-color-1;
+  hr {
+    margin-top: 0;
+    height: 1px;
+    background-color: $primary-color;
+    width: 30px;
+  }
   h2 {
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
   .prof-img-box {
+    padding: auto;
+    margin: auto;
+    height: 45vh;
+    width: 45vh;
     img {
       height: 100%;
       width: 100%;
     }
   }
   .mystory-text {
-    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
   }
 }
