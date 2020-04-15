@@ -5,7 +5,7 @@
 $primary-color: #e040fb;
 $light-color-1: #f8f9fa;
 $dark-color-1: #343a40;
-
+$dark-color-2: #ccc;
 body {
   font-family: "Dosis", "Roboto", sans-serif;
 }
@@ -103,5 +103,12 @@ body {
     strong {
       color: $primary-color;
     }
+  }
+}
+.myprojectpage {
+  margin-top: 20px;
+  background: $dark-color-2;
+  .myproject-title {
+    padding-top: 20px;
   }
 }
