@@ -100,5 +100,8 @@ body {
   .mystory-text {
     margin-top: 10px;
     text-align: center;
+    strong {
+      color: $primary-color;
+    }
   }
 }
