@@ -1,5 +1,9 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import pro1 from "../img/project1.jpg";
+import pro2 from "../img/project2.jpg";
+import pro3 from "../img/project3.jpg";
+import pro4 from "../img/project4.jpg";
 
 const MyProjectPage = (props) => {
   return (
@@ -8,66 +12,102 @@ const MyProjectPage = (props) => {
         <h2 className="myproject-title">My Projects</h2>
         <hr />
         <div className="">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            deleniti repellat culpa atque accusantium! Ducimus veniam omnis,
-            asperiores magni amet voluptatum ipsa, dolore vitae nisi numquam
-            assumenda accusantium perspiciatis? Aliquam ad nostrum tempora quasi
-            animi, tempore praesentium obcaecati harum. Quis est minus,
-            assumenda, error quia dolorum obcaecati ratione culpa deserunt
-            accusamus itaque possimus, ab sed laudantium. Quam minima tenetur,
-            sequi, repellat quia molestias quaerat, quis consequuntur inventore
-            voluptates suscipit cumque porro beatae? Magni dolorem, quia hic
-            tempore corrupti temporibus sed voluptatum, quos magnam quod nostrum
-            aut eum ducimus facere nihil aperiam quae eius laboriosam
-            necessitatibus sint dolorum! Laboriosam itaque alias nisi possimus
-            architecto quibusdam laborum ipsa perferendis aperiam obcaecati
-            porro odit fugiat quod voluptatem rerum magni, dicta quae incidunt!
-            Ipsam quam ut veniam. Expedita consequatur enim libero cumque vitae
-            voluptatibus eaque quis. Quae, magnam rerum hic cupiditate, delectus
-            quasi dolores sit quis reiciendis sint commodi, quia sunt ab ullam
-            recusandae quam repellat est accusantium. Pariatur esse recusandae
-            et eveniet sequi odio, impedit est nihil dolorem minus animi, minima
-            tempore, provident sed voluptas nesciunt alias explicabo
-            exercitationem. Illum dolores, provident maiores consectetur ipsa
-            eius id ipsum labore aspernatur facere illo quaerat enim maxime
-            aperiam error ad reiciendis laudantium. Natus, est iure velit
-            aliquam sed laboriosam hic, porro, dicta ipsa perferendis labore
-            officiis nesciunt. Veniam non suscipit ratione ullam officiis
-            adipisci consectetur amet quaerat? Sint unde nesciunt, voluptatem
-            ullam officia porro quasi id neque mollitia. Dolore eius error quam
-            facere atque quod illo odio iusto natus voluptates modi at officia
-            inventore, molestiae amet fuga rerum nihil. Doloribus quod ipsam
-            perferendis ea harum! Velit error, tempora est modi asperiores
-            impedit cumque dolorem eaque facere vel repellendus nam nihil
-            recusandae minima dolorum officiis totam vitae. Modi, itaque
-            laudantium exercitationem et dignissimos sint alias, fugit quam ipsa
-            ad adipisci debitis corporis, nesciunt natus! Ad ullam recusandae
-            error exercitationem temporibus autem itaque, suscipit nostrum eos
-            fugiat aut labore illo praesentium repellendus incidunt accusamus!
-            Sit, amet? Nostrum, facere similique voluptates, placeat totam amet
-            ducimus, nobis ratione possimus alias velit molestiae dignissimos.
-            Adipisci beatae architecto dolor voluptates, autem sit labore!
-            Dolorem explicabo officiis neque repellat eligendi quo corporis,
-            assumenda sunt nisi ipsa deleniti similique, at tempora doloribus
-            eum esse? Impedit ab iste quo nisi iusto quisquam ut cum dolorem
-            voluptatem necessitatibus? Voluptas error dolor expedita incidunt,
-            odio doloribus quas vitae debitis omnis optio fugit, in, placeat
-            molestias necessitatibus illo! Ratione excepturi cupiditate quasi
-            blanditiis cum aspernatur ut, ad, quisquam aut, provident corporis
-            animi quod consequatur assumenda saepe. Ducimus quidem debitis,
-            perspiciatis provident consectetur blanditiis, culpa alias quam
-            tempore placeat mollitia accusantium ipsum, rem fugit doloremque
-            suscipit quae quo totam officia. Praesentium quisquam doloribus
-            natus, dolorem dolorum quam excepturi, odio consequuntur maxime quis
-            impedit quibusdam ad illo laborum perspiciatis, deserunt
-            exercitationem animi pariatur quae nulla? Sit minus, culpa sapiente
-            nobis sequi illo eos atque cupiditate eum facilis. Soluta at sit
-            magnam explicabo nisi ipsum quo laborum debitis eos voluptatem
-            voluptates suscipit doloribus, aspernatur eligendi reiciendis id
-            quidem cumque animi quos tenetur, totam voluptatibus maiores error.
-            Nemo nesciunt non veritatis.
-          </p>
+          <Row>
+            <Col xs={12} sm={6}>
+              <Card className="card-box">
+                <Card.Img variant="top" src={pro1} />
+                <Card.Body>
+                  <Card.Title>My Portfolio Website</Card.Title>
+                  <Card.Text>
+                    <p>
+                      This portfolio website is build using React and Bootstrap.
+                      Currently no backend attached to this portfolio website.
+                      Plan to connect with MongoDB and the NodeJS to include the
+                      blog feature to this portfolio site.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    block
+                    href="https://compassionate-kalam-076392.netlify.com/#projects"
+                    variant="dark"
+                  >
+                    View Page
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} sm={6}>
+              <Card className="card-box">
+                <Card.Img variant="top" src={pro4} />
+                <Card.Body>
+                  <Card.Title>Bazaar On</Card.Title>
+                  <Card.Text>
+                    <p>
+                      The Bazaar On is a fun or hobby project which to allow
+                      people order meals through online. The main objective is
+                      to reduce the risks of infections during Ramadhan. This
+                      site is not complete and on hold. Build from the backend
+                      using NodeJS, Express, and MongoDB.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    block
+                    href="https://bazaar-online-muhamad-amir.herokuapp.com/"
+                    variant="dark"
+                  >
+                    View Page
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} sm={6}>
+              <Card className="card-box">
+                <Card.Img variant="top" src={pro3} />
+                <Card.Body>
+                  <Card.Title>Sedapnya.my</Card.Title>
+                  <Card.Text>
+                    <p>
+                      Another fun or hobby project which is a recipe apps which
+                      built solely for mobile view site. This site is in
+                      progress and will continue to grow as I continue to learn
+                      a new thing. Built on React and using Material-UI. Later
+                      will include the backend technology to give dynamic and
+                      persistence data to the app.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    block
+                    href="https://cranky-banach-49b2e5.netlify.com/"
+                    variant="dark"
+                  >
+                    View Page
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} sm={6}>
+              <Card className="card-box">
+                <Card.Img variant="top" src={pro2} />
+                <Card.Body>
+                  <Card.Title>Another Portfolio Site</Card.Title>
+                  <Card.Text>
+                    <p>
+                      This portfolio site is build to learn HTML and CSS from
+                      scratch. Using Sass CSS precompiler to make it easier to
+                      manage the CSS styling of the site.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    block
+                    href="https://musing-poitras-d4efc3.netlify.com/"
+                    variant="dark"
+                  >
+                    View Page
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>

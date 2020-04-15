@@ -112,3 +112,15 @@ body {
     padding-top: 20px;
   }
 }
+.card-box {
+  height: 790px;
+  margin-bottom: 20px;
+  a {
+    .btn .btn-dark {
+      display: block;
+    }
+  }
+}
+.myskills {
+  background: $light-color-1;
+}

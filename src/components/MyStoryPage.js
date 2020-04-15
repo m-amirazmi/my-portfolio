@@ -3,6 +3,7 @@ import NavbarLanding from "./NavbarLanding";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../img/prof2.jpg";
 import MyProjectPage from "./MyProjectPage";
+import MySkills from "./MySkills";
 
 const MyStoryPage = (props) => {
   return (
@@ -45,6 +46,7 @@ const MyStoryPage = (props) => {
         </Row>
       </Container>
       <MyProjectPage />
+      <MySkills />
     </div>
   );
 };
