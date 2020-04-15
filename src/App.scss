@@ -16,7 +16,7 @@
   }
 }
 .navbar-inner {
-  background: transparent;
+  background: #333;
 }
 .nav-link {
   color: #fff !important;
@@ -30,15 +30,20 @@
   background: #fff;
 }
 .landing-text {
-  margin-top: 20vh;
+  margin-top: 30vh;
   align-items: center;
   color: #fff;
   text-align: center;
+  min-height: 80vh;
   h2 {
     font-size: 42px;
     font-weight: 600;
-    border-bottom: #fff solid 1px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  hr {
+    margin-top: 0;
+    background: #fff;
+    width: 50px;
   }
   p a {
     font-style: none;

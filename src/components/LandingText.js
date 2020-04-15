@@ -8,7 +8,7 @@ const LandingText = (props) => {
         <Col>
           <div className="landing-text">
             <h2>MUHAMAD AMIR AZMI</h2>
-
+            <hr />
             <h5>"ASPIRING WEB DEVELOPER"</h5>
             <h6>| SELF TAUGHT | MERN STACK |</h6>
             <p>
