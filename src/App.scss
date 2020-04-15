@@ -1,38 +1,44 @@
 @import "~bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+$primary-color: #e040fb;
+$light-color-1: #f8f9fa;
+$dark-color-1: #343a40;
+
 .body {
   font-family: "Roboto", sans-serif;
 }
 
 .landing-img-box {
-  width: 100vw;
+  width: 99.05vw;
   height: 100vh;
   position: absolute;
   top: 0px;
   .landing-img {
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 }
 .navbar-inner {
-  background: #333;
+  background: $dark-color-1;
+  border-bottom: solid 2px $primary-color;
 }
 .nav-link {
-  color: #fff !important;
+  color: $light-color-1 !important;
   font-weight: 600;
   &:hover {
-    color: #e67cb2 !important;
+    color: $primary-color !important;
   }
 }
 .text-color {
-  color: #fff;
-  background: #fff;
+  color: $light-color-1;
+  background: $light-color-1;
 }
 .landing-text {
   margin-top: 30vh;
   align-items: center;
-  color: #fff;
+  color: $light-color-1;
   text-align: center;
   min-height: 70vh;
   h2 {
@@ -42,16 +48,27 @@
   }
   hr {
     margin-top: 0;
-    background: #fff;
+    background: $light-color-1;
     width: 50px;
+  }
+  div a {
+    font-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: $light-color-1;
+    margin: 0px 10px;
+    &:hover {
+      background-color: $primary-color;
+      border-color: $primary-color;
+    }
   }
   p a {
     font-style: none;
     text-decoration: none;
-    color: #fff;
+    color: $light-color-1;
     margin: 10px 10px;
     &:hover {
-      color: #e67cb2;
+      color: $primary-color;
     }
   }
 }

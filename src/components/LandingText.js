@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 const LandingText = (props) => {
   return (
@@ -19,6 +19,11 @@ const LandingText = (props) => {
                 <i class="fab fa-linkedin fa-2x"></i>
               </a>
             </p>
+            <div className="">
+              <Button variant="outline-light" href="#projects">
+                View My Projects
+              </Button>
+            </div>
           </div>
         </Col>
       </Row>
