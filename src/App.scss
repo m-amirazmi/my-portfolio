@@ -144,12 +144,12 @@ body {
   }
 }
 .reach-me {
-  align-items: center;
   p {
-    margin-left: 140px;
+    text-align: center;
   }
   p a {
     font-style: none;
+    text-align: center;
     text-decoration: none;
     color: $light-color-1;
     margin: 10px 10px;
