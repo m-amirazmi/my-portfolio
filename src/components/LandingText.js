@@ -20,7 +20,7 @@ const LandingText = (props) => {
               </a>
             </p>
             <div className="">
-              <Button variant="outline-light" href="#projects">
+              <Button variant="light" href="#projects">
                 View My Projects
               </Button>
             </div>
