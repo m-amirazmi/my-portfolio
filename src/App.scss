@@ -1,12 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 $primary-color: #e040fb;
 $light-color-1: #f8f9fa;
 $dark-color-1: #343a40;
 
-.body {
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: "Dosis", "Roboto", sans-serif;
 }
 
 .landing-img-box {
@@ -71,5 +72,21 @@ $dark-color-1: #343a40;
     &:hover {
       color: $primary-color;
     }
+  }
+}
+.mystorypage {
+  background: $light-color-1;
+  h2 {
+    text-align: center;
+    margin: 10px;
+  }
+  .prof-img-box {
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .mystory-text {
+    margin-top: 20px;
   }
 }
