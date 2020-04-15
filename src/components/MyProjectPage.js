@@ -60,7 +60,7 @@ const MyProjectPage = (props) => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={6}>
+            <Col xs={12} sm={{ offset: 3, span: 6 }}>
               <Card className="card-box">
                 <Card.Img variant="top" src={pro3} />
                 <Card.Body>
@@ -78,28 +78,6 @@ const MyProjectPage = (props) => {
                   <Button
                     block
                     href="https://cranky-banach-49b2e5.netlify.com/"
-                    variant="dark"
-                  >
-                    View Page
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} sm={6}>
-              <Card className="card-box">
-                <Card.Img variant="top" src={pro2} />
-                <Card.Body>
-                  <Card.Title>Another Portfolio Site</Card.Title>
-                  <Card.Text>
-                    <p>
-                      This portfolio site is build to learn HTML and CSS from
-                      scratch. Using Sass CSS precompiler to make it easier to
-                      manage the CSS styling of the site.
-                    </p>
-                  </Card.Text>
-                  <Button
-                    block
-                    href="https://musing-poitras-d4efc3.netlify.com/"
                     variant="dark"
                   >
                     View Page
